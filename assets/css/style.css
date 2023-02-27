@@ -76,7 +76,7 @@ header .hero_pic_people{
 /* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Headline ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
 
 header #headline{
-    margin-top: 18vh;
+    margin-top: 25vh;
     margin-left: 10vw;
 }
 
@@ -90,6 +90,7 @@ header #headline p{
     margin-top: 8px;
     font-size: 1.5rem;
     line-height: 15px;
+    padding-left: 0;
 }
 
 header #headline .rocket{
@@ -108,7 +109,7 @@ header #headline a{
 
 main .pics_articles img{
     width: 100%;
-    padding-top: 10vh;
+    padding-top: 15vh;
     padding-bottom: 10vh;
 }
 
@@ -221,6 +222,7 @@ main .section_icon_text{
 .step_01_text p{
     width: 85%;
     line-height: 1.8rem;
+    padding-left: 0;
 }
 
 /* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 2 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
@@ -259,6 +261,7 @@ main .section_icon_text{
 .step_02_text p{
     width: 105%;
     line-height: 1.8rem;
+    padding-left: 0;
 }
 
 /* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 3 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
@@ -294,6 +297,7 @@ main .section_icon_text{
 .step_03_text p{
     width: 87%;
     line-height: 1.8rem;
+    padding-left: 0;
 }
 
 /* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 4 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
@@ -331,6 +335,7 @@ main .section_icon_text{
 .step_04_text p{
     width: 100%;
     line-height: 1.8rem;
+    padding-left: 0;
 }
 
 /* =============== Footer ========================== */
