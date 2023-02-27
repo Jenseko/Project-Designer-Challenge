@@ -1,0 +1,390 @@
+
+/* ==============Generals===============================
+Farben: #0b0c17 / #ff3571 / #dddddd /
+            
+            #3C30FF / #FFF / #000
+
+___________________________________________________*/
+
+@font-face {
+    font-family: 'roboto light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto bolt';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: roboto bold, sans-serif;
+}
+
+p{
+    font-family: roboto light, sans-serif;
+}
+
+/* =============== HEADER ========================== */
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Logo ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+header #logo {
+    width: 4vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    top: 0;
+}
+
+header .logo_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    padding-left: 65px;
+}
+
+header .logo_text h1{
+    font-size: 1.5rem;
+}
+
+header .logo_text h4{
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Hero Cover ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+header .hero_pic{
+    width: 52vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header .hero_pic_people{
+    width: 52vw;
+    position: absolute;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ Headline ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+header #headline{
+    margin-top: 18vh;
+    margin-left: 10vw;
+}
+
+header #headline h1{
+    font-size: 4.5rem;
+    width: 50%;
+}
+
+header #headline p{
+    width: 50%;
+    margin-top: 8px;
+    font-size: 1.5rem;
+    line-height: 15px;
+}
+
+header #headline .rocket{
+    width: 6%;
+}
+
+header #headline a{
+    display:block;
+    color: #ff3571;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10vh;
+}
+
+/* =============== MAIN ========================== */
+
+main .pics_articles img{
+    width: 100%;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+main .every_idea {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10vh;
+}
+
+main .every_idea .idea {
+    width: 30%;
+    flex-basis: 200px;
+}
+
+main .every_idea .idea h2 {
+    font-size: 2.5rem;
+}
+
+main .every_idea .idea h2 img {
+    width: 12%;
+}
+
+main .every_idea p{
+    width: 38%;
+    line-height: 15px;
+}
+
+main h1 {
+    font-size: 3rem;
+    padding-left: 11vw;
+    width: 70%;
+    margin-bottom: 10vh;
+}
+
+/* =============== Section ========================== */
+
+main .section_icon_text{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+.section_icon_text div{
+    width: 37%;
+    margin-bottom: 10px;
+
+}
+
+.section_icon_text div img{
+    width: 3vw;
+}
+
+.section_icon_text div article h4{
+    margin-top: -13px;
+    margin-bottom: 3px;
+}
+
+.section_icon_text div article h4, p{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+/* =============== Article ========================== */
+
+.ready h4{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.ready p{
+    text-align: center;
+    padding-top: 30px;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    width: 45%;
+    margin-bottom: 15vh;
+}
+
+/* =============== Section Steps ========================== */
+
+.step_01{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 8vh auto;
+}
+
+.step_01 img{
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.step_01_text h1{
+    font-size: 5rem;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 7vh;
+}
+
+.step_01_text img{
+    width: 8%;
+    margin-left: 0;
+}
+
+.step_01_text h3{
+    padding: 10px 0;
+}
+
+.step_01_text p{
+    width: 85%;
+    line-height: 1.8rem;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 2 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.step_02{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    margin: 0 auto;
+}
+
+.step_02 img{
+    width: 40%;
+    margin-right: 4rem;
+}
+
+.step_02_text{
+    margin-left: 9vw;
+}
+
+.step_02_text h1{
+    font-size: 5rem;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 7vh;
+}
+
+.step_02_text img{
+    width: 8%;
+    
+}
+
+.step_02_text h3{
+    padding: 10px 0;
+}
+
+.step_02_text p{
+    width: 105%;
+    line-height: 1.8rem;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 3 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.step_03{
+    display: flex;
+    justify-content: center;
+    gap: 12rem;
+    margin: 8vh auto;
+}
+
+.step_03 img{
+    width: 40%;
+    margin-left: 4rem;
+}
+
+.step_03_text h1{
+    font-size: 5rem;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 7vh;
+}
+
+.step_03_text img{
+    width: 8%;
+    
+    margin-left: 0;
+}
+
+.step_03_text h3{
+    padding: 10px 0;
+}
+
+.step_03_text p{
+    width: 87%;
+    line-height: 1.8rem;
+}
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ 4 ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.step_04{
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+    margin: 0 auto;
+}
+
+.step_04 img{
+    width: 40%;
+    margin-right: 4rem;
+}
+
+.step_04_text{
+    margin-left: 9vw;
+}
+
+.step_04_text h1{
+    font-size: 5rem;
+    color: rgba(0,0,0,0.15);
+    margin-bottom: 7vh;
+}
+
+.step_04_text img{
+    width: 8%;
+}
+
+.step_04_text h3{
+    padding: 10px 0;
+}
+
+.step_04_text p{
+    width: 100%;
+    line-height: 1.8rem;
+}
+
+/* =============== Footer ========================== */
+
+#footer_main h1{
+    margin-top: 10vh;
+    text-align: center;
+    font-size: 3rem;
+}
+#footer_main p{
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 3vh auto;
+}
+
+#footer_main form{
+    text-align: center;
+}
+
+#footer_main form input[type="email"] {
+    padding: 10px 100px;
+    border-style: none;
+    box-shadow: 3px 3px 20px #e3e3e3;
+    border-radius: 5px;
+}
+
+#footer_main form input[type="submit"] {
+    display: block;
+    margin: 3rem auto;
+    background-color:#ff3571;
+    color: #fff;
+    border-style: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-bottom: 6vh;
+}
+
+#footer_main form input[type="submit"]:hover {
+    background-color: #3C30FF; 
+}
+
+#footer_main form input[type="submit"]
+
+
+/* ============================================ */
+
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+.heart {
+    margin-left: 9vw;
+    margin-bottom: 3vh;
+    font-size: 1.3rem;
+}
+
+.heart img {
+    width: 3%;
+}

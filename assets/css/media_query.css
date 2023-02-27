@@ -1,0 +1,114 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*          MEDIA QUERIES for 600px              */
+/* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
+
+@media only screen and (max-width: 600px){
+
+    header #headline {
+        margin-top: 6vh;
+    }
+
+    header #headline h1{
+        font-size: 3rem;
+    }
+
+    header #headline a{
+        margin-top: 2vh;
+    }
+
+    main .pics_articles img{
+        padding-top: 4vh;
+        padding-bottom: 4vh;
+    }
+
+    main .every_idea {
+        display: block;
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+    }
+    
+    main .every_idea .idea {
+        width: 100%;
+    }
+    
+    main .every_idea .idea h2 {
+        font-size: 4rem;
+        
+    }
+
+    main .every_idea p{
+        width: 95%;
+        margin: 2vh auto;
+        font-size: 1.5rem;
+    }
+
+    main h1 {
+        font-size: 3.5rem;
+        padding-left: 13vw;
+        width: 87%;
+        margin-bottom: 3vh;
+    }
+
+    main section {
+        display: block;
+        Padding: 10px 60px;
+        margin-bottom: 3vh;
+    }
+
+    main section .gelb , .tuerkis , .blau , .rot{
+        display: block;
+        width: 80%;
+        margin-bottom: 2vh;
+        font-size: 1.8rem;
+    }
+
+    main section .gelb,.tuerkis,.blau,.rot p{
+        font-size: 1.4rem;
+    } 
+
+    .ready h4{
+        margin-top: 2vh;
+        text-align: center;
+        font-size: 3.5rem;
+    }
+
+    .ready p{
+        text-align: center;
+        padding-top: 30px;
+        margin: 0 auto;
+        font-size: 1.6rem;
+        width: 80%;
+        margin-bottom: 3vh;
+    }
+
+    .step_01{
+        display: block;
+        gap: 4rem;
+        margin: 4vh auto;
+    }
+
+    .step_01_text h1{
+        font-size: 7rem;
+        margin-bottom: 1vh;
+    }
+    
+    .step_02_text h1{
+        font-size: 7rem;
+        margin-bottom: 1vh;
+    }
+    .step_03_text h1{
+        font-size: 7rem;
+        margin-bottom: 1vh;
+    }
+    .step_04_text h1{
+        font-size: 7rem;
+        margin-bottom: 1vh;
+    }
+}

@@ -1,0 +1,85 @@
+/* ==============Generals===============================
+Farben: #0b0c17 / #ff3571 / #dddddd /
+            
+            #3C30FF / #FFF / #000
+
+___________________________________________________*/
+
+@font-face {
+    font-family: 'roboto light';
+    src: url('../fonts/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'roboto bolt';
+    src: url('../fonts/Roboto-Bold.ttf');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: roboto bold, sans-serif;
+}
+p{
+    font-family: roboto light, sans-serif;
+}
+
+/* ================= HEADER ========================== */
+
+header #logo {
+    width: 4vw;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: fixed;
+    top: 0;
+}
+/* ================== MAIN =========================== */
+
+main section {
+    margin: 30vh auto;
+    padding: 10vh 10px;
+    width: 70%;
+    text-align: center;
+    box-shadow: 2px 5px 30px rgba(13, 13, 13, 0.3);
+}
+
+main section img {
+    width: 5%;
+}
+
+main section h1 {
+    margin: 10px 0;
+}
+
+main section p{
+    font-family: roboto bold, sans-serif;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+main section a{
+    background-color:  #7a04f7;
+    color: #FFF;
+    text-decoration: none;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+/* ================= FOOTER ========================== */
+
+footer .heart {
+    margin-left: 15vw;
+    margin-bottom: 3vh;
+    font-size: 1.3rem;
+    font-family: roboto bold, sans-serif;
+    font-weight: 500;
+}
+
+footer .heart img {
+    width: 3%;
+}
