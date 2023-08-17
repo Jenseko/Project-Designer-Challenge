@@ -1,114 +1,91 @@
-
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 /*          MEDIA QUERIES for 600px              */
 /* ≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈≈ */
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
 
-    header #headline {
-        margin-top: 6vh;
-    }
+  header .logo_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 21px;
+    padding-left: 45px;
+  }
 
-    header #headline h1{
-        font-size: 3rem;
-    }
+  header #headline {
+    margin-top: 5vh;
+  }
 
-    header #headline a{
-        margin-top: 2vh;
-    }
+  header #headline h1 {
+    width: 50%;
+  }
 
-    main .pics_articles img{
-        padding-top: 4vh;
-        padding-bottom: 4vh;
-    }
+  header #headline a {
+    margin-top: 2vh;
+  }
 
-    main .every_idea {
-        display: block;
-        width: 80%;
-        text-align: center;
-        margin: 0 auto;
-    }
-    
-    main .every_idea .idea {
-        width: 100%;
-    }
-    
-    main .every_idea .idea h2 {
-        font-size: 4rem;
-        
-    }
+  main .pics_articles img {
+    padding-block: 8vh 5vh;
+  }
 
-    main .every_idea p{
-        width: 95%;
-        margin: 2vh auto;
-        font-size: 1.5rem;
-    }
+  main .every_idea {
+    margin-bottom: 4vh;
+  }
 
-    main h1 {
-        font-size: 3.5rem;
-        padding-left: 13vw;
-        width: 87%;
-        margin-bottom: 3vh;
-    }
+  main .every_idea p {
+    width: 100ch;
+  }
 
-    main section {
-        display: block;
-        Padding: 10px 60px;
-        margin-bottom: 3vh;
-    }
+  main h5 {
+    font-size: 2.8rem;
+    padding-inline: 11vw 10vw;
+    width: 100%;
+    margin-bottom: 4vh;
+  }
 
-    main section .gelb , .tuerkis , .blau , .rot{
-        display: block;
-        width: 80%;
-        margin-bottom: 2vh;
-        font-size: 1.8rem;
-    }
+  /* -------------- */
 
-    main section .gelb,.tuerkis,.blau,.rot p{
-        font-size: 1.4rem;
-    } 
+  main .section_icon_text {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center;
+  }
 
-    .ready h4{
-        margin-top: 2vh;
-        text-align: center;
-        font-size: 3.5rem;
-    }
+  .section_icon_text div {
+    width: 50%;
+  }
 
-    .ready p{
-        text-align: center;
-        padding-top: 30px;
-        margin: 0 auto;
-        font-size: 1.6rem;
-        width: 80%;
-        margin-bottom: 3vh;
-    }
+  .section_icon_text div img {
+    width: 4vw;
+  }
 
-    .step_01{
-        display: block;
-        gap: 4rem;
-        margin: 4vh auto;
-    }
+  .section_icon_text div article h4 {
+    margin-top: -28px;
+  }
+  .ready h4 {
+    margin-top: 2vh;
+    text-align: center;
+    font-size: 2.8rem;
+  }
 
-    .step_01_text h1{
-        font-size: 7rem;
-        margin-bottom: 1vh;
-    }
-    
-    .step_02_text h1{
-        font-size: 7rem;
-        margin-bottom: 1vh;
-    }
-    .step_03_text h1{
-        font-size: 7rem;
-        margin-bottom: 1vh;
-    }
-    .step_04_text h1{
-        font-size: 7rem;
-        margin-bottom: 1vh;
-    }
+  .ready p {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 1.2rem;
+    width: 60%;
+    margin-bottom: 3vh;
+    padding-right: 30px;
+  }
+
+  .single-step {
+    margin: 4vh auto;
+  }
+
+  .step-text h5 {
+    margin-bottom: 2vh;
+  }
 }
